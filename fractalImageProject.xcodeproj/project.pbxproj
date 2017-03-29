@@ -25,11 +25,11 @@
 
 /* Begin PBXFileReference section */
 		71D3EEA91E4A854500BE7D9E /* fractalImageProject */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = fractalImageProject; sourceTree = BUILT_PRODUCTS_DIR; };
-		71D3EEAC1E4A854500BE7D9E /* fractal.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = fractal.cpp; sourceTree = "<group>"; };
-		71D3EEB31E4A873D00BE7D9E /* BitmapFileHeader.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BitmapFileHeader.h; sourceTree = "<group>"; };
-		71D3EEB41E4A894000BE7D9E /* BitmapInfoHeader.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BitmapInfoHeader.h; sourceTree = "<group>"; };
-		71D3EEB81E4A8C1600BE7D9E /* Bitmap.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Bitmap.cpp; sourceTree = "<group>"; };
-		71D3EEB91E4A8C1600BE7D9E /* Bitmap.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Bitmap.h; sourceTree = "<group>"; };
+		71D3EEAC1E4A854500BE7D9E /* fractal.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = fractal.cpp; path = fractalImageProject/fractal.cpp; sourceTree = SOURCE_ROOT; };
+		71D3EEB31E4A873D00BE7D9E /* BitmapFileHeader.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = BitmapFileHeader.h; path = fractalImageProject/BitmapFileHeader.h; sourceTree = SOURCE_ROOT; };
+		71D3EEB41E4A894000BE7D9E /* BitmapInfoHeader.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = BitmapInfoHeader.h; path = fractalImageProject/BitmapInfoHeader.h; sourceTree = SOURCE_ROOT; };
+		71D3EEB81E4A8C1600BE7D9E /* Bitmap.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = Bitmap.cpp; path = fractalImageProject/Bitmap.cpp; sourceTree = SOURCE_ROOT; };
+		71D3EEB91E4A8C1600BE7D9E /* Bitmap.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Bitmap.h; path = fractalImageProject/Bitmap.h; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -256,6 +256,7 @@
 				71D3EEB21E4A854500BE7D9E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
