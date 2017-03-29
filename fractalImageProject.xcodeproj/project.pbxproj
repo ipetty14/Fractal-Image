@@ -7,20 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		7197B7F71E8C5C480060AD7F /* Bitmap.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 7197B7E91E8C5C480060AD7F /* Bitmap.cpp */; };
-		7197B7F81E8C5C480060AD7F /* Bitmap.h in Sources */ = {isa = PBXBuildFile; fileRef = 7197B7EA1E8C5C480060AD7F /* Bitmap.h */; };
-		7197B7F91E8C5C480060AD7F /* BitmapFileHeader.h in Sources */ = {isa = PBXBuildFile; fileRef = 7197B7EB1E8C5C480060AD7F /* BitmapFileHeader.h */; };
-		7197B7FA1E8C5C480060AD7F /* BitmapInfoHeader.h in Sources */ = {isa = PBXBuildFile; fileRef = 7197B7EC1E8C5C480060AD7F /* BitmapInfoHeader.h */; };
-		7197B7FB1E8C5C480060AD7F /* fractal.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 7197B7ED1E8C5C480060AD7F /* fractal.cpp */; };
-		7197B7FC1E8C5C480060AD7F /* FractalCreator.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 7197B7EE1E8C5C480060AD7F /* FractalCreator.cpp */; };
-		7197B7FD1E8C5C480060AD7F /* FractalCreator.h in Sources */ = {isa = PBXBuildFile; fileRef = 7197B7EF1E8C5C480060AD7F /* FractalCreator.h */; };
-		7197B7FE1E8C5C480060AD7F /* Mandelbrot.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 7197B7F01E8C5C480060AD7F /* Mandelbrot.cpp */; };
-		7197B7FF1E8C5C480060AD7F /* Mandelbrot.h in Sources */ = {isa = PBXBuildFile; fileRef = 7197B7F11E8C5C480060AD7F /* Mandelbrot.h */; };
-		7197B8001E8C5C480060AD7F /* RGB.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 7197B7F21E8C5C480060AD7F /* RGB.cpp */; };
-		7197B8011E8C5C480060AD7F /* RGB.h in Sources */ = {isa = PBXBuildFile; fileRef = 7197B7F31E8C5C480060AD7F /* RGB.h */; };
-		7197B8021E8C5C480060AD7F /* Zoom.h in Sources */ = {isa = PBXBuildFile; fileRef = 7197B7F41E8C5C480060AD7F /* Zoom.h */; };
-		7197B8031E8C5C480060AD7F /* ZoomList.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 7197B7F51E8C5C480060AD7F /* ZoomList.cpp */; };
-		7197B8041E8C5C480060AD7F /* ZoomList.h in Sources */ = {isa = PBXBuildFile; fileRef = 7197B7F61E8C5C480060AD7F /* ZoomList.h */; };
+		7197B8131E8C5D510060AD7F /* Bitmap.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 7197B8051E8C5D510060AD7F /* Bitmap.cpp */; };
+		7197B8171E8C5D510060AD7F /* fractal.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 7197B8091E8C5D510060AD7F /* fractal.cpp */; };
+		7197B8181E8C5D510060AD7F /* FractalCreator.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 7197B80A1E8C5D510060AD7F /* FractalCreator.cpp */; };
+		7197B81A1E8C5D510060AD7F /* Mandelbrot.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 7197B80C1E8C5D510060AD7F /* Mandelbrot.cpp */; };
+		7197B81C1E8C5D510060AD7F /* RGB.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 7197B80E1E8C5D510060AD7F /* RGB.cpp */; };
+		7197B81F1E8C5D510060AD7F /* ZoomList.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 7197B8111E8C5D510060AD7F /* ZoomList.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -36,20 +28,20 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		7197B7E91E8C5C480060AD7F /* Bitmap.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Bitmap.cpp; sourceTree = "<group>"; };
-		7197B7EA1E8C5C480060AD7F /* Bitmap.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Bitmap.h; sourceTree = "<group>"; };
-		7197B7EB1E8C5C480060AD7F /* BitmapFileHeader.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BitmapFileHeader.h; sourceTree = "<group>"; };
-		7197B7EC1E8C5C480060AD7F /* BitmapInfoHeader.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BitmapInfoHeader.h; sourceTree = "<group>"; };
-		7197B7ED1E8C5C480060AD7F /* fractal.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = fractal.cpp; sourceTree = "<group>"; };
-		7197B7EE1E8C5C480060AD7F /* FractalCreator.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = FractalCreator.cpp; sourceTree = "<group>"; };
-		7197B7EF1E8C5C480060AD7F /* FractalCreator.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FractalCreator.h; sourceTree = "<group>"; };
-		7197B7F01E8C5C480060AD7F /* Mandelbrot.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Mandelbrot.cpp; sourceTree = "<group>"; };
-		7197B7F11E8C5C480060AD7F /* Mandelbrot.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Mandelbrot.h; sourceTree = "<group>"; };
-		7197B7F21E8C5C480060AD7F /* RGB.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = RGB.cpp; sourceTree = "<group>"; };
-		7197B7F31E8C5C480060AD7F /* RGB.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RGB.h; sourceTree = "<group>"; };
-		7197B7F41E8C5C480060AD7F /* Zoom.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Zoom.h; sourceTree = "<group>"; };
-		7197B7F51E8C5C480060AD7F /* ZoomList.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = ZoomList.cpp; sourceTree = "<group>"; };
-		7197B7F61E8C5C480060AD7F /* ZoomList.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZoomList.h; sourceTree = "<group>"; };
+		7197B8051E8C5D510060AD7F /* Bitmap.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = Bitmap.cpp; path = ../Bitmap.cpp; sourceTree = "<group>"; };
+		7197B8061E8C5D510060AD7F /* Bitmap.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = Bitmap.h; path = ../Bitmap.h; sourceTree = "<group>"; };
+		7197B8071E8C5D510060AD7F /* BitmapFileHeader.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = BitmapFileHeader.h; path = ../BitmapFileHeader.h; sourceTree = "<group>"; };
+		7197B8081E8C5D510060AD7F /* BitmapInfoHeader.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = BitmapInfoHeader.h; path = ../BitmapInfoHeader.h; sourceTree = "<group>"; };
+		7197B8091E8C5D510060AD7F /* fractal.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = fractal.cpp; path = ../fractal.cpp; sourceTree = "<group>"; };
+		7197B80A1E8C5D510060AD7F /* FractalCreator.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = FractalCreator.cpp; path = ../FractalCreator.cpp; sourceTree = "<group>"; };
+		7197B80B1E8C5D510060AD7F /* FractalCreator.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = FractalCreator.h; path = ../FractalCreator.h; sourceTree = "<group>"; };
+		7197B80C1E8C5D510060AD7F /* Mandelbrot.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = Mandelbrot.cpp; path = ../Mandelbrot.cpp; sourceTree = "<group>"; };
+		7197B80D1E8C5D510060AD7F /* Mandelbrot.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = Mandelbrot.h; path = ../Mandelbrot.h; sourceTree = "<group>"; };
+		7197B80E1E8C5D510060AD7F /* RGB.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = RGB.cpp; path = ../RGB.cpp; sourceTree = "<group>"; };
+		7197B80F1E8C5D510060AD7F /* RGB.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = RGB.h; path = ../RGB.h; sourceTree = "<group>"; };
+		7197B8101E8C5D510060AD7F /* Zoom.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = Zoom.h; path = ../Zoom.h; sourceTree = "<group>"; };
+		7197B8111E8C5D510060AD7F /* ZoomList.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = ZoomList.cpp; path = ../ZoomList.cpp; sourceTree = "<group>"; };
+		7197B8121E8C5D510060AD7F /* ZoomList.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = ZoomList.h; path = ../ZoomList.h; sourceTree = "<group>"; };
 		71D3EEA91E4A854500BE7D9E /* fractalImageProject */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = fractalImageProject; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -83,20 +75,20 @@
 		71D3EEAB1E4A854500BE7D9E /* fractalImageProject */ = {
 			isa = PBXGroup;
 			children = (
-				7197B7E91E8C5C480060AD7F /* Bitmap.cpp */,
-				7197B7EA1E8C5C480060AD7F /* Bitmap.h */,
-				7197B7EB1E8C5C480060AD7F /* BitmapFileHeader.h */,
-				7197B7EC1E8C5C480060AD7F /* BitmapInfoHeader.h */,
-				7197B7ED1E8C5C480060AD7F /* fractal.cpp */,
-				7197B7EE1E8C5C480060AD7F /* FractalCreator.cpp */,
-				7197B7EF1E8C5C480060AD7F /* FractalCreator.h */,
-				7197B7F01E8C5C480060AD7F /* Mandelbrot.cpp */,
-				7197B7F11E8C5C480060AD7F /* Mandelbrot.h */,
-				7197B7F21E8C5C480060AD7F /* RGB.cpp */,
-				7197B7F31E8C5C480060AD7F /* RGB.h */,
-				7197B7F41E8C5C480060AD7F /* Zoom.h */,
-				7197B7F51E8C5C480060AD7F /* ZoomList.cpp */,
-				7197B7F61E8C5C480060AD7F /* ZoomList.h */,
+				7197B8051E8C5D510060AD7F /* Bitmap.cpp */,
+				7197B8061E8C5D510060AD7F /* Bitmap.h */,
+				7197B8071E8C5D510060AD7F /* BitmapFileHeader.h */,
+				7197B8081E8C5D510060AD7F /* BitmapInfoHeader.h */,
+				7197B8091E8C5D510060AD7F /* fractal.cpp */,
+				7197B80A1E8C5D510060AD7F /* FractalCreator.cpp */,
+				7197B80B1E8C5D510060AD7F /* FractalCreator.h */,
+				7197B80C1E8C5D510060AD7F /* Mandelbrot.cpp */,
+				7197B80D1E8C5D510060AD7F /* Mandelbrot.h */,
+				7197B80E1E8C5D510060AD7F /* RGB.cpp */,
+				7197B80F1E8C5D510060AD7F /* RGB.h */,
+				7197B8101E8C5D510060AD7F /* Zoom.h */,
+				7197B8111E8C5D510060AD7F /* ZoomList.cpp */,
+				7197B8121E8C5D510060AD7F /* ZoomList.h */,
 			);
 			path = fractalImageProject;
 			sourceTree = "<group>";
@@ -158,20 +150,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7197B7F71E8C5C480060AD7F /* Bitmap.cpp in Sources */,
-				7197B7F81E8C5C480060AD7F /* Bitmap.h in Sources */,
-				7197B7F91E8C5C480060AD7F /* BitmapFileHeader.h in Sources */,
-				7197B7FA1E8C5C480060AD7F /* BitmapInfoHeader.h in Sources */,
-				7197B7FB1E8C5C480060AD7F /* fractal.cpp in Sources */,
-				7197B7FC1E8C5C480060AD7F /* FractalCreator.cpp in Sources */,
-				7197B7FD1E8C5C480060AD7F /* FractalCreator.h in Sources */,
-				7197B7FE1E8C5C480060AD7F /* Mandelbrot.cpp in Sources */,
-				7197B7FF1E8C5C480060AD7F /* Mandelbrot.h in Sources */,
-				7197B8001E8C5C480060AD7F /* RGB.cpp in Sources */,
-				7197B8011E8C5C480060AD7F /* RGB.h in Sources */,
-				7197B8021E8C5C480060AD7F /* Zoom.h in Sources */,
-				7197B8031E8C5C480060AD7F /* ZoomList.cpp in Sources */,
-				7197B8041E8C5C480060AD7F /* ZoomList.h in Sources */,
+				7197B8131E8C5D510060AD7F /* Bitmap.cpp in Sources */,
+				7197B8171E8C5D510060AD7F /* fractal.cpp in Sources */,
+				7197B8181E8C5D510060AD7F /* FractalCreator.cpp in Sources */,
+				7197B81A1E8C5D510060AD7F /* Mandelbrot.cpp in Sources */,
+				7197B81C1E8C5D510060AD7F /* RGB.cpp in Sources */,
+				7197B81F1E8C5D510060AD7F /* ZoomList.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
